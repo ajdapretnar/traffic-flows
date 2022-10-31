@@ -12,7 +12,7 @@ Supporting Jupyter notebook scripts, Orange workflows, and data.
 
 The included notebooks present examples of handling and visualizing traffic count data. Run the notebook with `jupyter notebook Notebook_Name.ipynb`.
 
-Requirements: `Python`, `Jupyter`, `Pandas`, (`folium` and `branca` for map visualizations)
+Requirements: `Python`, `Jupyter`, `Pandas`, `matplotlib` (`folium` and `branca` for map visualizations)
 
 - [Absolute and relative difference.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Absolute%20and%20relative%20difference.ipynb): Presents the concept of baseline traffic and the measure of absolute and relative deviation from it.
 - [Basic Sorting.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Basic%20Sorting.ipynb): Basic manipulation and visualization of traffic count data.
