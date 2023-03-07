@@ -7,6 +7,10 @@ by Ajda Pretnar Žagar, Tomaž Hočevar and Tomaž Curk
 
 Jupyter notebook scripts, Orange workflows, and data that support the findings of the study titled "*Open Data and Quantitative Techniques for Anthropology of Road Traffic*" and submitted for publication in the *EPJ Data Science* journal.
 
+#### Data
+
+The traffic data comes from an extensive network of road traffic counters of the Slovenian Infrastructure Agency. Both real-time data and historical data are publicly
+available for different locations, directions of traffic and lanes. We analyzed the historical data for 2015, 2016, and 2017, for which traffic counts were available at hourly intervals. We preprocessed and aggregated the data in different ways (per month, season, or day of the week) for the purposes of traffic analysis. Some aggregations are provided as *csv* files in this repository and used in the following Jupyter notebooks and Orange workflows. Most of the examples use `cars-pivot.csv` as the input data. It stores hourly profiles of traffic grouped by the counter location, direction of traffic and month.
 
 ### Jupyter notebooks
 
@@ -15,9 +19,9 @@ The included notebooks present examples of handling and visualizing traffic coun
 Requirements: `Python`, `Jupyter`, `Pandas`, `matplotlib` (`folium` and `branca` for map visualizations). The provided notebooks should run using any recent version of Python (e.g. Python 3.10.0) and other required packages. See `requirements.txt` for a set of specific version that can be used.
 
 - [Absolute and relative difference.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Absolute%20and%20relative%20difference.ipynb): Presents the concept of baseline traffic and the measure of absolute and relative deviation from it.
-- [Basic Sorting.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Basic%20Sorting.ipynb): Basic manipulation and visualization of traffic count data.
+- [Basic Sorting.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Basic%20Sorting.ipynb): Basic manipulation and visualization of traffic count data. (see Figure 1b)
 - [Traffic profile deviations.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Traffic%20profile%20deviations.ipynb): Other measures of traffic profile deviation.
-- [Maps.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Maps.ipynb): Example visualization of motorbike traffic on Slovenian road network.
+- [Maps.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Maps.ipynb): Example visualization of motorbike traffic on Slovenian road network (analogous to Figure 3b).
 
 An example from notebook [Maps.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Maps.ipynb) displaying the amount of motorbike traffic on a map where we can observe a larger amount of motorbikes in the western part of the country.
 
