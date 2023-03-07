@@ -1,4 +1,4 @@
-pandas
-matplotlib
-folium
-branca
+pandas==1.5.2
+matplotlib=3.6.2
+folium==0.14.0
+branca==0.6.0

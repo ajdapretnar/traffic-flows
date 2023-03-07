@@ -12,7 +12,7 @@ Jupyter notebook scripts, Orange workflows, and data that support the findings o
 
 The included notebooks present examples of handling and visualizing traffic count data. Run the notebook with `jupyter notebook Notebook_Name.ipynb`.
 
-Requirements: `Python`, `Jupyter`, `Pandas`, `matplotlib` (`folium` and `branca` for map visualizations)
+Requirements: `Python`, `Jupyter`, `Pandas`, `matplotlib` (`folium` and `branca` for map visualizations). The provided notebooks should run using any recent version of Python (e.g. Python 3.10.0) and other required packages. See `requirements.txt` for a set of specific version that can be used.
 
 - [Absolute and relative difference.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Absolute%20and%20relative%20difference.ipynb): Presents the concept of baseline traffic and the measure of absolute and relative deviation from it.
 - [Basic Sorting.ipynb](https://github.com/ajdapretnar/traffic-flows/blob/master/Basic%20Sorting.ipynb): Basic manipulation and visualization of traffic count data.
@@ -27,7 +27,7 @@ An example from notebook [Maps.ipynb](https://github.com/ajdapretnar/traffic-flo
 
 Open the workflows with `orange-canvas Workflow_Name.ows`. Workflows include instructions for setting up individual widgets correctly.
 
-Requirements: [Orange3](https://orangedatamining.com/download/), (`Orange3-Geo` add-on for map visualizations).
+Requirements: [Orange3](https://orangedatamining.com/download/), (`Orange3-Geo` add-on for map visualizations). You can use Orange3 version 3.34.0 or any other recent version of Orange.
 
 - [coefficient-of-variation.ows](https://github.com/ajdapretnar/traffic-flows/blob/master/coefficient-of-variation.ows): Computation of one measure for detecting traffic counters with deviating profiles and visualization of the monthly traffic profile of one such traffic counter (Vršič mountain pass).
 - [counters-clustering.ows](https://github.com/ajdapretnar/traffic-flows/blob/master/counters-clustering.ows): Clustering counters by their traffic profiles and visualization of counter locations on a map (see Figure 7).
