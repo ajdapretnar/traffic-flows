@@ -10,7 +10,7 @@ Jupyter notebook scripts, Orange workflows, and data that support the findings o
 
 ### Jupyter notebooks
 
-The included notebooks present examples of handling and visualizing traffic count data. Run the notebook with `jupyter notebook Notebook_Name.ipynb`.
+The included notebooks present examples of handling and visualizing traffic count data. Run the notebook with `jupyter notebook Notebook_Name.ipynb`. The notebooks are independent and can be run in any order.
 
 Requirements: `Python`, `Jupyter`, `Pandas`, `matplotlib` (`folium` and `branca` for map visualizations). The provided notebooks should run using any recent version of Python (e.g. Python 3.10.0) and other required packages. See `requirements.txt` for a set of specific version that can be used.
 
