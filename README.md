@@ -9,8 +9,11 @@ Jupyter notebook scripts, Orange workflows, and data that support the findings o
 
 #### Data
 
-The traffic data comes from an extensive network of road traffic counters of the Slovenian Infrastructure Agency. Both real-time data and historical data are publicly
+The traffic data comes from an extensive network of road traffic counters of the Slovenian Infrastructure Agency<sup>*</sup>. Both real-time data and historical data are publicly
 available for different locations, directions of traffic and lanes. We analyzed the historical data for 2015, 2016, and 2017, for which traffic counts were available at hourly intervals. We preprocessed and aggregated the data in different ways (per month, season, or day of the week) for the purposes of traffic analysis. Some aggregations are provided as *csv* files in this repository and used in the following Jupyter notebooks and Orange workflows. Most of the examples use `cars-pivot.csv` as the input data. It stores hourly profiles of traffic grouped by the counter location, direction of traffic and month.
+
+<sup>*</sup>[MZI DRSI: Promet 2015-2017, CD-ROM. Ministrstvo za infrastrukturo, Direkcija Republike Slovenije za infrastrukturo, Ljubljana (2021)](
+https://www.gov.si/zbirke/storitve/narocilo-publikacije-oziroma-zgoscenke-promet)
 
 ### Jupyter notebooks
 
