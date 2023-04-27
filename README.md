@@ -5,7 +5,7 @@
 # Open Data and Quantitative Techniques for Anthropology of Road Traffic
 by Ajda Pretnar Žagar, Tomaž Hočevar and Tomaž Curk
 
-Jupyter notebook scripts, Orange workflows, and data that support the findings of the study titled "*Open Data and Quantitative Techniques for Anthropology of Road Traffic*" and submitted for review.
+Jupyter notebook scripts, Orange workflows, and data that support the findings of the study titled "*Open Data and Quantitative Techniques for Anthropology of Road Traffic*" and submitted for review. A preprint can be found on [arXiv:2111.15661](https://arxiv.org/abs/2111.15661).
 
 #### Data
 
